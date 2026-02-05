@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="https://jakarta.ee/xml/ns/jakartaee" version="6.0">
+
+    <servlet>
+        <servlet-name>ExpenseController</servlet-name>
+        <servlet-class>com.expense.controller.ExpenseController</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>ExpenseController</servlet-name>
+        <url-pattern>/</url-pattern>
+    </servlet-mapping>
+
+</web-app>
